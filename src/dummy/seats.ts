@@ -1,270 +1,85 @@
 const SeatsData = [
+ 
+
     [
         {
-            id: "1A",
+            id: 0,
             seatNumber: "1",
             isBooked: false,
             isSelected: false,
-            rowName: "A",
+            rowName: "D",
             gap: 0,
-            rowForPrice: false,
+            rowForPrice: true,
             category: {
-                price: 190,
-                name: "3D CLASSIC"
+                price: 200,
+                name: "3D PRIME"
             }
         },
         {
-            id: "2A",
+            id: 1,
             seatNumber: "2",
             isBooked: false,
             isSelected: false,
-            rowName: "A",
+            rowName: "D",
             gap: 0,
-            rowForPrice: false,
+            rowForPrice: true,
             category: {
-                price: 190,
-                name: "3D CLASSIC"
+                price: 200,
+                name: "3D PRIME"
             }
         },
         {
-            id: "3A",
+            id: 2,
             seatNumber: "3",
-            isBooked: false,
+            isBooked: true,
             isSelected: false,
-            rowName: "A",
+            rowName: "D",
             gap: 0,
-            rowForPrice: false,
+            rowForPrice: true,
             category: {
-                price: 190,
-                name: "3D CLASSIC"
+                price: 200,
+                name: "3D PRIME"
             }
         },
         {
-            id: "4A",
+            id: 3,
             seatNumber: "4",
-            isBooked: false,
+            isBooked: true,
             isSelected: false,
-            rowName: "A",
+            rowName: "D",
             gap: 0,
-            rowForPrice: false,
+            rowForPrice: true,
             category: {
-                price: 190,
-                name: "3D CLASSIC"
+                price: 200,
+                name: "3D PRIME"
             }
         },
         {
-            id: "5A",
+            id: 4,
             seatNumber: "5",
-            isBooked: false,
+            isBooked: true,
             isSelected: false,
-            rowName: "A",
+            rowName: "D",
             gap: 0,
-            rowForPrice: false,
+            rowForPrice: true,
             category: {
-                price: 190,
-                name: "3D CLASSIC"
+                price: 200,
+                name: "3D PRIME"
             }
         },
         {
-            id: "6A",
+            id: 5,
             seatNumber: "6",
-            isBooked: false,
+            isBooked: true,
             isSelected: false,
-            rowName: "A",
-            gap: 0,
-            rowForPrice: false,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-        {
-            id: "7A",
-            seatNumber: "7",
-            isBooked: false,
-            isSelected: false,
-            rowName: "A",
-            gap: 0,
-            rowForPrice: false,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-        {
-            id: "8A",
-            seatNumber: "8",
-            isBooked: false,
-            isSelected: false,
-            rowName: "A",
-            gap: 0,
-            rowForPrice: false,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-        {
-            id: "9A",
-            seatNumber: "9",
-            isBooked: false,
-            isSelected: false,
-            rowName: "A",
-            gap: 0,
-            rowForPrice: false,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-        {
-            id: "10A",
-            seatNumber: "10",
-            isBooked: false,
-            isSelected: false,
-            rowName: "A",
-            gap: 0,
-            rowForPrice: false,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-    ]
-    ,
-    [
-
-        {
-            id: "1B",
-            seatNumber: "1",
-            isBooked: false,
-            isSelected: false,
-            rowName: "B",
+            rowName: "D",
             gap: 0,
             rowForPrice: true,
             category: {
-                price: 190,
-                name: "3D CLASSIC"
+                price: 200,
+                name: "3D PRIME"
             }
         },
-        {
-            id: "2B",
-            seatNumber: "2",
-            isBooked: false,
-            isSelected: false,
-            rowName: "B",
-            gap: 0,
-            rowForPrice: true,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-        {
-            id: "3B",
-            seatNumber: "3",
-            isBooked: false,
-            isSelected: false,
-            rowName: "B",
-            gap: 0,
-            rowForPrice: true,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-        {
-            id: "4B",
-            seatNumber: "4",
-            isBooked: false,
-            isSelected: false,
-            rowName: "B",
-            gap: 0,
-            rowForPrice: true,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-        {
-            id: "5B",
-            seatNumber: "5",
-            isBooked: false,
-            isSelected: false,
-            rowName: "B",
-            gap: 0,
-            rowForPrice: true,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-        {
-            id: "6B",
-            seatNumber: "6",
-            isBooked: false,
-            isSelected: false,
-            rowName: "B",
-            gap: 0,
-            rowForPrice: true,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-        {
-            id: "7B",
-            seatNumber: "7",
-            isBooked: false,
-            isSelected: false,
-            rowName: "B",
-            gap: 0,
-            rowForPrice: true,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-        {
-            id: "8B",
-            seatNumber: "8",
-            isBooked: false,
-            isSelected: false,
-            rowName: "B",
-            gap: 0,
-            rowForPrice: true,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-        {
-            id: "9B",
-            seatNumber: "9",
-            isBooked: false,
-            isSelected: false,
-            rowName: "B",
-            gap: 0,
-            rowForPrice: true,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-        {
-            id: "10B",
-            seatNumber: "10",
-            isBooked: false,
-            isSelected: false,
-            rowName: "B",
-            gap: 0,
-            rowForPrice: true,
-            category: {
-                price: 190,
-                name: "3D CLASSIC"
-            }
-        },
-
     ],
 
     [
@@ -399,88 +214,274 @@ const SeatsData = [
             }
         },
     ],
-
     [
+
         {
-            id: 0,
+            id: "1B",
             seatNumber: "1",
             isBooked: false,
             isSelected: false,
-            rowName: "D",
+            rowName: "B",
             gap: 0,
             rowForPrice: true,
             category: {
-                price: 200,
-                name: "3D PRIME"
+                price: 190,
+                name: "3D CLASSIC"
             }
         },
         {
-            id: 1,
+            id: "2B",
             seatNumber: "2",
             isBooked: false,
             isSelected: false,
-            rowName: "D",
+            rowName: "B",
             gap: 0,
             rowForPrice: true,
             category: {
-                price: 200,
-                name: "3D PRIME"
+                price: 190,
+                name: "3D CLASSIC"
             }
         },
         {
-            id: 2,
+            id: "3B",
             seatNumber: "3",
-            isBooked: true,
+            isBooked: false,
             isSelected: false,
-            rowName: "D",
+            rowName: "B",
             gap: 0,
             rowForPrice: true,
             category: {
-                price: 200,
-                name: "3D PRIME"
+                price: 190,
+                name: "3D CLASSIC"
             }
         },
         {
-            id: 3,
+            id: "4B",
             seatNumber: "4",
-            isBooked: true,
+            isBooked: false,
             isSelected: false,
-            rowName: "D",
+            rowName: "B",
             gap: 0,
             rowForPrice: true,
             category: {
-                price: 200,
-                name: "3D PRIME"
+                price: 190,
+                name: "3D CLASSIC"
             }
         },
         {
-            id: 4,
+            id: "5B",
             seatNumber: "5",
-            isBooked: true,
+            isBooked: false,
             isSelected: false,
-            rowName: "D",
+            rowName: "B",
             gap: 0,
             rowForPrice: true,
             category: {
-                price: 200,
-                name: "3D PRIME"
+                price: 190,
+                name: "3D CLASSIC"
             }
         },
         {
-            id: 5,
+            id: "6B",
             seatNumber: "6",
-            isBooked: true,
+            isBooked: false,
             isSelected: false,
-            rowName: "D",
+            rowName: "B",
             gap: 0,
             rowForPrice: true,
             category: {
-                price: 200,
-                name: "3D PRIME"
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "7B",
+            seatNumber: "7",
+            isBooked: false,
+            isSelected: false,
+            rowName: "B",
+            gap: 0,
+            rowForPrice: true,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "8B",
+            seatNumber: "8",
+            isBooked: false,
+            isSelected: false,
+            rowName: "B",
+            gap: 0,
+            rowForPrice: true,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "9B",
+            seatNumber: "9",
+            isBooked: false,
+            isSelected: false,
+            rowName: "B",
+            gap: 0,
+            rowForPrice: true,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "10B",
+            seatNumber: "10",
+            isBooked: false,
+            isSelected: false,
+            rowName: "B",
+            gap: 0,
+            rowForPrice: true,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+
+    ],
+    [
+        {
+            id: "1A",
+            seatNumber: "1",
+            isBooked: false,
+            isSelected: false,
+            rowName: "A",
+            gap: 0,
+            rowForPrice: false,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "2A",
+            seatNumber: "2",
+            isBooked: false,
+            isSelected: false,
+            rowName: "A",
+            gap: 0,
+            rowForPrice: false,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "3A",
+            seatNumber: "3",
+            isBooked: false,
+            isSelected: false,
+            rowName: "A",
+            gap: 0,
+            rowForPrice: false,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "4A",
+            seatNumber: "4",
+            isBooked: false,
+            isSelected: false,
+            rowName: "A",
+            gap: 0,
+            rowForPrice: false,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "5A",
+            seatNumber: "5",
+            isBooked: false,
+            isSelected: false,
+            rowName: "A",
+            gap: 0,
+            rowForPrice: false,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "6A",
+            seatNumber: "6",
+            isBooked: false,
+            isSelected: false,
+            rowName: "A",
+            gap: 0,
+            rowForPrice: false,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "7A",
+            seatNumber: "7",
+            isBooked: false,
+            isSelected: false,
+            rowName: "A",
+            gap: 0,
+            rowForPrice: false,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "8A",
+            seatNumber: "8",
+            isBooked: false,
+            isSelected: false,
+            rowName: "A",
+            gap: 0,
+            rowForPrice: false,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "9A",
+            seatNumber: "9",
+            isBooked: false,
+            isSelected: false,
+            rowName: "A",
+            gap: 0,
+            rowForPrice: false,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
+            }
+        },
+        {
+            id: "10A",
+            seatNumber: "10",
+            isBooked: false,
+            isSelected: false,
+            rowName: "A",
+            gap: 0,
+            rowForPrice: false,
+            category: {
+                price: 190,
+                name: "3D CLASSIC"
             }
         },
     ]
-
+    ,
+   
 ]
 
 export default SeatsData;
