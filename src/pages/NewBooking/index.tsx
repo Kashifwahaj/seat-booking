@@ -91,7 +91,7 @@ const Booking: FC<props> = () => {
     }
 
     const syncSeats = () => {
-        const newSeats = data.map((row: SeatEntity[]) => {
+        const newSeats = data.reverse().map((row: SeatEntity[]) => {
             return row.map((seatItem: SeatEntity) => {
                 if (selected.includes(seatItem.id)) {
                     return {
