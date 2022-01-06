@@ -127,7 +127,7 @@ const Booking: FC<props> = () => {
     }, [numOfSelected, selected])
 
     useEffect(() => {
-        setSeats([...data]);
+        setSeats([...data.reverse()]);
         setSelected([]);
         setNumOfSelected([])
     }, [numOfSeats])
