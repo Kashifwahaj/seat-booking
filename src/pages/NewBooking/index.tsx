@@ -41,8 +41,9 @@ const Booking: FC<props> = () => {
 
             }
 
-            setNumOfSelected([...newArr]);
-            setSelected([...newIDArr])
+            setNumOfSelected([...new Map(newArr.map((item:any) =>
+                [item['id'], item])).values()]);
+            setSelected([...new Set(newIDArr)])
         }
 
         else {
@@ -59,8 +60,9 @@ const Booking: FC<props> = () => {
 
                 }
 
-                setNumOfSelected([...newArr]);
-                setSelected([...newIDArr])
+                setNumOfSelected([...new Map(newArr.map((item:any) =>
+                    [item['id'], item])).values()]);
+                setSelected([...new Set(newIDArr)])
 
             } else {
 
@@ -68,6 +70,8 @@ const Booking: FC<props> = () => {
 
                 const newArr: Array<SeatEntity> = [...numOfSelected, seat];
                 const newIDArr: Array<String | number> = [...selected, seat.id];
+               
+                
                 for (let i = 1; i < leftSeats; i++) {
 
                     if (data[rowIndex][seatIndex + i] && !data[rowIndex][seatIndex + i].isBooked) {
@@ -77,8 +81,11 @@ const Booking: FC<props> = () => {
 
                 }
 
-                setNumOfSelected([...newArr]);
-                setSelected([...newIDArr])
+
+                
+                setNumOfSelected([...new Map(newArr.map((item:any) =>
+                    [item['id'], item])).values()]);
+                setSelected([...new Set(newIDArr)])
             }
 
         }
@@ -104,6 +111,7 @@ const Booking: FC<props> = () => {
         });
 
         setSeats([...newSeats]);
+        
         if (numOfSeats === numOfSelected.length) {
             setReady(true);
             const am = numOfSelected.reduce((a: any, b: SeatEntity) => {
