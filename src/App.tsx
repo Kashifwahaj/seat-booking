@@ -1,10 +1,9 @@
 import './App.css';
-import { Booking, NewBooking } from './pages';
+import {  NewBooking } from './pages';
 
 function App() {
   return (
     <div className="App">
-      {/* <Booking/> */}
       <NewBooking/>
     </div>
   );
